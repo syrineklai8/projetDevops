@@ -1,13 +1,5 @@
-<build>
-    <plugins>
-        <plugin>
+<dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-maven-plugin</artifactId>
-            <configuration>
-                <image>
-                    <name>non-existent-docker-image</name>
-                </image>
-            </configuration>
-        </plugin>
-    </plugins>
-</build>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+            <version>2.3.0.M1</version>
+        </dependency>

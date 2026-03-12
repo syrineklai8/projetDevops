@@ -1,1 +1,13 @@
-<build><plugins><plugin><groupId>org.springframework.boot</groupId><artifactId>spring-boot-maven-plugin</artifactId><configuration><image><name>invalid-docker-image</name></image></configuration></plugin></plugins></build>
+<build>
+    <plugins>
+        <plugin>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-maven-plugin</artifactId>
+            <configuration>
+                <image>
+                    <name>non-existent-docker-image</name>
+                </image>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>

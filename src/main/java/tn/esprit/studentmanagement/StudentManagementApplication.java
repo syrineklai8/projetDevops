@@ -1,1 +1,6 @@
-public class StudentManagementApplication { public static void main(String[] args) { System.out.println(unknownMethod()); } }
+public class StudentManagementApplication {
+    public static void main(String[] args) {
+        String str = null;
+        System.out.println(str.length());
+    }
+}

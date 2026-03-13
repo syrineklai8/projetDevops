@@ -1,1 +1,1 @@
-// No modifications made, application remains unchanged
+// No changes made, application remains unchanged

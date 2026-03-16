@@ -1,14 +1,1 @@
-// No changes made, application remains unchanged
-package tn.esprit.studentmanagement;
-
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-@SpringBootApplication
-public class StudentManagementApplication {
-
-    public static void main(String[] args) {
-        SpringApplication.run(StudentManagementApplication.class, args);
-    }
-
-}
+public class StudentManagementApplication { public static void main(String[] args) { System.out.println("Hello World") } }
